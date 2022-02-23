@@ -10,11 +10,13 @@
 </head>
 <body>
     
-    <h1 id="h1">
-        <input v-model="message">
-
-    </h1>
-
+    <div class="container">
+        <h1 id="h1">
+            <input v-model="message">
+            <!-- <p>{{message}}</p> -->
+        </h1>
+        <img id="img" v-bind:src="immagine" alt="">
+    </div>
 
     <script type="text/javascript" src="myscript.js">
     </script>

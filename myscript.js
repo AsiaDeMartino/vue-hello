@@ -8,3 +8,14 @@ const app = new Vue (
         }
     }
 );
+
+//bonus
+
+const img = new Vue (
+    {
+        el: '#img',
+        data: {
+            immagine: 'https://picsum.photos/200/300'
+        }
+    }
+);
